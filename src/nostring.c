@@ -1,5 +1,5 @@
 
-#include "string.h"
+#include "../include/string.h"
 int strlen(char* string) {
   
   for (int i = 0; 1; i++) {

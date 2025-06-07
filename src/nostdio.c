@@ -1,7 +1,7 @@
-#include "nostdarg.h"
-#include "nostdio.h"
-#include "nounistd.h"
-#include "nostring.h"
+#include "../include/nostdarg.h"
+#include "../include/nostdio.h"
+#include "../include/nounistd.h"
+#include "../include/nostring.h"
 void putc(char charr) {
   write(1, &charr, 1);
 
